@@ -56,6 +56,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_SKIP_MULTIUSER_FOLDERS_BACKUP=1
 	export OF_QUICK_BACKUP_LIST="/boot;/dtbo;"
 	export OF_PATCH_AVB20=1
+	export OF_USE_LEGACY_BATTERY_SERVICES=1
 
 	# OTA
 	export OF_KEEP_DM_VERITY=1
