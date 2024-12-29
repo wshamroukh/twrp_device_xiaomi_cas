@@ -1,4 +1,8 @@
 get_prop(recovery, packagemanager_config_prop)
+get_prop(recovery, logpersistd_logging_prop)
+get_prop(recovery, keyguard_config_prop)
+get_prop(recovery, incremental_prop)
+get_prop(recovery, aac_drc_prop)
 allow recovery hwservice_contexts_file:file { getattr open read };
 allow recovery init:dir { search };
 allow recovery init:file { getattr open read };
