@@ -161,6 +161,9 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 # fscrypt policy
 TW_USE_FSCRYPT_POLICY := 2
 
+# Enable early preparation of /data/media for emulated storage
+TW_PREPARE_DATA_MEDIA_EARLY := true
+
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
