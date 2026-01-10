@@ -20,3 +20,6 @@ PRODUCT_NAME := twrp_cas
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := M2007J1SC
 PRODUCT_MANUFACTURER := xiaomi
+
+# use 'dmsetup' to try and work around problems with formatting the /data partition
+OF_USE_DMCTL := 1
