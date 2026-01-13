@@ -196,3 +196,6 @@ TW_INCLUDE_PYTHON := true
 TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_RESETPROP := true
 TW_INCLUDE_LIBRESETPROP := true
+
+# use 'dmsetup' to try and work around problems with formatting the /data partition
+TW_USE_DMCTL := true
